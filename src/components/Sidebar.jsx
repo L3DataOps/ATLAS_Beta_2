@@ -1,6 +1,8 @@
-const Sidebar = () => {
 
-    let currentDate = new Date(timestamp)
+
+const Sidebar = () => {
+    const timestamp = Date.now();  
+    const currentDate = new Date(timestamp);
 
     return (
         <div className="sidebar">
